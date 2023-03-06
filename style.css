@@ -1,3 +1,17 @@
 h1 {
-    color: red;
+    color: purple;
 }
+
+ul {
+    display: flex;
+    list-style-type: none;
+    background: purple;
+    flex-basis: auto;
+    color: white;
+}
+
+
+ul li {
+    margin: 1rem;
+}
+
