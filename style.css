@@ -1,17 +1,82 @@
-h1 {
-    color: purple;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Sen&display=swap');
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Sen', sans-serif;
+    background: #eee;
+    color: rgb(128, 138, 145);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(28, 39, 55);
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #333;
+}
+
+nav {
+    background: rgb(211 255 96);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 ul {
     display: flex;
     list-style-type: none;
-    background: purple;
     flex-basis: auto;
     color: white;
 }
-
 
 ul li {
     margin: 1rem;
 }
 
+main {
+    padding: 1rem;
+
+}
+
+section {
+    width: 50%;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+}
+
+.courses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.course {
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.course > h3 {
+    color: #6C56F1;
+}
+
+pre {
+    background: #333;
+}
+
+code {
+    color: red;
+}
